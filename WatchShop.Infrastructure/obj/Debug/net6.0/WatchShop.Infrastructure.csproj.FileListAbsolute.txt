@@ -1,0 +1,12 @@
+C:\Users\Student\Documents\BK 12b\WatchShopApp\WatchShop.Infrastructure\obj\Debug\net6.0\WatchShop.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Student\Documents\BK 12b\WatchShopApp\WatchShop.Infrastructure\obj\Debug\net6.0\WatchShop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Documents\BK 12b\WatchShopApp\WatchShop.Infrastructure\obj\Debug\net6.0\WatchShop.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\BK 12b\WatchShopApp\WatchShop.Infrastructure\obj\Debug\net6.0\WatchShop.Infrastructure.AssemblyInfo.cs
+C:\Users\Student\Documents\BK 12b\WatchShopApp\WatchShop.Infrastructure\obj\Debug\net6.0\WatchShop.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\BK 12b\WatchShopApp\WatchShop.Infrastructure\bin\Debug\net6.0\WatchShop.Infrastructure.deps.json
+C:\Users\Student\Documents\BK 12b\WatchShopApp\WatchShop.Infrastructure\bin\Debug\net6.0\WatchShop.Infrastructure.dll
+C:\Users\Student\Documents\BK 12b\WatchShopApp\WatchShop.Infrastructure\bin\Debug\net6.0\WatchShop.Infrastructure.pdb
+C:\Users\Student\Documents\BK 12b\WatchShopApp\WatchShop.Infrastructure\obj\Debug\net6.0\WatchShop.Infrastructure.dll
+C:\Users\Student\Documents\BK 12b\WatchShopApp\WatchShop.Infrastructure\obj\Debug\net6.0\refint\WatchShop.Infrastructure.dll
+C:\Users\Student\Documents\BK 12b\WatchShopApp\WatchShop.Infrastructure\obj\Debug\net6.0\WatchShop.Infrastructure.pdb
+C:\Users\Student\Documents\BK 12b\WatchShopApp\WatchShop.Infrastructure\obj\Debug\net6.0\ref\WatchShop.Infrastructure.dll

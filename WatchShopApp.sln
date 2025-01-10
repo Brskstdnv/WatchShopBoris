@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchShopApp", "WatchShopApp\WatchShopApp.csproj", "{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchShop.Infrastructure", "WatchShop.Infrastructure\WatchShop.Infrastructure.csproj", "{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CF5328D-DC07-489A-924E-076B0B2D3C20}
+	EndGlobalSection
+EndGlobal

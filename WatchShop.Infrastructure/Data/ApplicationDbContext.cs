@@ -10,8 +10,9 @@ namespace WatchShopApp.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+            this.Database.EnsureCreated();  
         }
-        public DbSet<User> Users {  get; set; }
+        
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Manufacturer> Manufacturers { get; set; }

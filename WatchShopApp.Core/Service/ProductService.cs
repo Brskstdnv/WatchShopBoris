@@ -13,7 +13,7 @@ using WatchShopApp.Data;
 
 namespace WatchShopApp.Core.Service
 {
-    public class ProductService :// IProductService
+    public class ProductService // IProductService
     {
         //public ApplicationDbContext _context;
 

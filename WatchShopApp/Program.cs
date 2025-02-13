@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-
+using WatchShop.Infrastructure.Data.Domain;
 using WatchShopApp.Data;
 
 namespace WatchShopApp
@@ -17,7 +17,7 @@ namespace WatchShopApp
                 options.UseSqlServer(connectionString));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-            builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+            builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
             {
                 options.Password.RequiredLength = 5;
                 options.Password.RequireUppercase = false;
@@ -25,6 +25,7 @@ namespace WatchShopApp
                 options.SignIn.RequireConfirmedAccount = false;
                 options.Password.RequireDigit = false;
                 options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequiredLength = 5;
             })
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();

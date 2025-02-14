@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\WatchShopApp.csproj": {}
+    "C:\\Users\\Student\\Desktop\\WatchShopBoris\\WatchShopApp\\WatchShopApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj": {
+    "C:\\Users\\Student\\Desktop\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj",
         "projectName": "WatchShop.Infrastructure",
-        "projectPath": "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\bobar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\WatchShopBoris\\WatchShop.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\bobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -43,6 +52,10 @@
             "IdentityModel": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -69,21 +82,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\WatchShopApp.csproj": {
+    "C:\\Users\\Student\\Desktop\\WatchShopBoris\\WatchShopApp\\WatchShopApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\WatchShopApp.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\WatchShopBoris\\WatchShopApp\\WatchShopApp.csproj",
         "projectName": "WatchShopApp",
-        "projectPath": "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\WatchShopApp.csproj",
-        "packagesPath": "C:\\Users\\bobar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\WatchShopBoris\\WatchShopApp\\WatchShopApp.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\WatchShopBoris\\WatchShopApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\bobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,15 +108,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj"
+              "C:\\Users\\Student\\Desktop\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj"
               }
             }
           }
@@ -108,6 +124,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -160,7 +181,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

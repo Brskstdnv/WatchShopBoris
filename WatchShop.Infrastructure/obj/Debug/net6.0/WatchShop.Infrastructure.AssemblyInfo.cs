@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WatchShop.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bcb5aa26a9231dd3945bf1ec5acb37878e14acf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+174e931b2d32175b43ca3d889acb9bfefbe54c8a")]
 [assembly: System.Reflection.AssemblyProductAttribute("WatchShop.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WatchShop.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

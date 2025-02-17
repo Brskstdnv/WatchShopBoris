@@ -34,3 +34,16 @@ C:\Users\bobar\Desktop\Diplomen proekt\WatchShopBoris\WatchShop.Infrastructure\o
 C:\Users\bobar\Desktop\Diplomen proekt\WatchShopBoris\WatchShop.Infrastructure\obj\Debug\net6.0\refint\WatchShop.Infrastructure.dll
 C:\Users\bobar\Desktop\Diplomen proekt\WatchShopBoris\WatchShop.Infrastructure\obj\Debug\net6.0\WatchShop.Infrastructure.pdb
 C:\Users\bobar\Desktop\Diplomen proekt\WatchShopBoris\WatchShop.Infrastructure\obj\Debug\net6.0\ref\WatchShop.Infrastructure.dll
+C:\Users\Student\Desktop\WatchShopBoris\WatchShop.Infrastructure\obj\Debug\net6.0\WatchShop.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\WatchShopBoris\WatchShop.Infrastructure\obj\Debug\net6.0\WatchShop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\WatchShopBoris\WatchShop.Infrastructure\obj\Debug\net6.0\WatchShop.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\WatchShopBoris\WatchShop.Infrastructure\obj\Debug\net6.0\WatchShop.Infrastructure.AssemblyInfo.cs
+C:\Users\Student\Desktop\WatchShopBoris\WatchShop.Infrastructure\obj\Debug\net6.0\WatchShop.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\WatchShopBoris\WatchShop.Infrastructure\obj\Debug\net6.0\WatchShop.Infrastructure.sourcelink.json
+C:\Users\Student\Desktop\WatchShopBoris\WatchShop.Infrastructure\obj\Debug\net6.0\WatchShop.Infrastructure.dll
+C:\Users\Student\Desktop\WatchShopBoris\WatchShop.Infrastructure\obj\Debug\net6.0\refint\WatchShop.Infrastructure.dll
+C:\Users\Student\Desktop\WatchShopBoris\WatchShop.Infrastructure\obj\Debug\net6.0\WatchShop.Infrastructure.pdb
+C:\Users\Student\Desktop\WatchShopBoris\WatchShop.Infrastructure\bin\Debug\net6.0\WatchShop.Infrastructure.deps.json
+C:\Users\Student\Desktop\WatchShopBoris\WatchShop.Infrastructure\bin\Debug\net6.0\WatchShop.Infrastructure.dll
+C:\Users\Student\Desktop\WatchShopBoris\WatchShop.Infrastructure\bin\Debug\net6.0\WatchShop.Infrastructure.pdb
+C:\Users\Student\Desktop\WatchShopBoris\WatchShop.Infrastructure\obj\Debug\net6.0\ref\WatchShop.Infrastructure.dll

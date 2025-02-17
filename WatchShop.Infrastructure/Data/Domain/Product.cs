@@ -15,7 +15,7 @@ namespace WatchShop.Infrastructure.Data.Domain
         public string ProductName { get; set; }
         [Required]
         public int ManufacturerdId { get; set; }
-        public virtual Manufacturer Manufacturer { get; set; } = null!;
+        public virtual Manufacturer ManufacturerId { get; set; } = null!;
         [Required]
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; } = null!;

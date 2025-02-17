@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WatchShop.Infrastructure\WatchShop.Infrastructure.csproj" />
+    <ProjectReference Include="..\WatchShopApp.Core\WatchShopApp.Core.csproj" />
   </ItemGroup>
 
 </Project>

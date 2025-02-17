@@ -1,6 +1,10 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WatchShop.Infrastructure.Data.Domain;
+using WatchShop.Infrastructure.Data.Infrastructure;
+
+using WatchShopApp.Core.Contracts;
+using WatchShopApp.Core.Service;
 using WatchShopApp.Data;
 
 namespace WatchShopApp
@@ -14,7 +18,8 @@ namespace WatchShopApp
             // Add services to the container.
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(connectionString));
+            options.UseLazyLoadProxies()
+                .UseSqlServer(connectionString));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
             builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
@@ -27,11 +32,17 @@ namespace WatchShopApp
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequiredLength = 5;
             })
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddTransient<IManufacturerService, ManufacturerIdService>();
+            builder.Services.AddTransient<ICategoryService, CategoryService>();
+
             var app = builder.Build();
 
+
+            app.PrepareDatabase();
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {

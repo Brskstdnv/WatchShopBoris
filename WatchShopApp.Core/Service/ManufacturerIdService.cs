@@ -13,12 +13,12 @@ using WatchShopApp.Data;
 
 namespace WatchShopApp.Core.Service
 {
-    public class ManufacturerIdService : IManufacturerService
+    public class ManufacturerService : IManufacturerService
     {
 
         private readonly ApplicationDbContext _context;
 
-        public ManufacturerIdService(ApplicationDbContext context)
+        public ManufacturerService(ApplicationDbContext context)
         {
             _context = context;
         }
@@ -31,7 +31,7 @@ namespace WatchShopApp.Core.Service
 
         public Manufacturer GetManufacturerId(int manufacturerId)
         {
-            return _context.Category.Find(manufacturerId);
+            return _context.Manufacturers.Find(manufacturerId);
         }
 
         public List<Product> GetProductByManufacturer(int manufacturerId)

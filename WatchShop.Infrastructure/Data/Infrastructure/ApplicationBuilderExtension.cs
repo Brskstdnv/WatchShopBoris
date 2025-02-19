@@ -33,7 +33,7 @@ namespace WatchShop.Infrastructure.Data.Infrastructure
                 SeedCategories(dataCategory);
 
                 var dataBrand = serviceScope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-                SeedBrands(dataBrand);
+                SeedManufacture(dataBrand);
 
                 return app;
             }
@@ -47,11 +47,11 @@ namespace WatchShop.Infrastructure.Data.Infrastructure
                 }
                 dataCategory.Categories.AddRange(new[]
                 {
-            new Category{CategoryName = "Rolex"},
-            new Category{CategoryName = "AP"},
-            new Category{CategoryName = "Casio"},
-            new Category{CategoryName = "Cartier"},
-            new Category{CategoryName = "Casio"},
+            new Category{CategoryName = "Sport"},
+            new Category{CategoryName = "Luxury"},
+            new Category{CategoryName = "Digital"},
+            new Category{CategoryName = "Smart"},
+            new Category{CategoryName = "Classic"},
 
 
                 }
@@ -60,12 +60,27 @@ namespace WatchShop.Infrastructure.Data.Infrastructure
                 dataCategory.SaveChanges();
             }
 
-            private static void SeedBrands(ApplicationDbContext dataManufacturer)
-            {
-              
-            }
+        private static void SeedManufacture(ApplicationDbContext dataManufacture)
+        {
+            if (dataManufacture.Manufacturers.Any())
+            { return; }
 
-            private static async Task RoleSeeder(IServiceProvider serviceProvider)
+            dataManufacture.Manufacturers.AddRange(new[]
+
+            {
+            new Manufacturer{Name = "Rolex"},
+
+
+            new Manufacturer{Name = "Ap" },
+
+            new Manufacturer{Name = "Casio" },
+            new Manufacturer{Name = "AppleWatch" }
+        }
+                );
+            dataManufacture.SaveChanges();
+        }
+
+        private static async Task RoleSeeder(IServiceProvider serviceProvider)
             {
                 var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 

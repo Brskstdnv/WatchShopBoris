@@ -10,9 +10,9 @@ namespace WatchShopApp.Core.Contracts
 {
     public interface IProductService
     {
-        bool Create(string name, int categoryId, string category, int manufacturerId, string manufacturer, string picture, int quantity, decimal price, decimal discount);
+        bool Create(string name, int manufacturerId, int categoryId, string picture, string description, int quantity, decimal price, decimal discount);
 
-        bool Update(int productId, string name, int categoryId, string category, string picture, int quantity, decimal price, decimal discount);
+        bool Update(int productId, string name,int manufacturerId, int categoryId, string picture, string description, int quantity, decimal price, decimal discount);
 
         List<Product> GetAllProducts();
 

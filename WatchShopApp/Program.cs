@@ -18,7 +18,7 @@ namespace WatchShopApp
             // Add services to the container.
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseLazyLoadProxies()
+            options.UseLazyLoadingProxies()
                 .UseSqlServer(connectionString));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
@@ -36,8 +36,9 @@ namespace WatchShopApp
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
 
-            builder.Services.AddTransient<IManufacturerService, ManufacturerIdService>();
+            builder.Services.AddTransient<IManufacturerService, ManufacturerService>();
             builder.Services.AddTransient<ICategoryService, CategoryService>();
+            builder.Services.AddTransient<IProductService, ProductService>();
 
             var app = builder.Build();
 

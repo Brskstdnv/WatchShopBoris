@@ -10,7 +10,7 @@ using WatchShop.Infrastructure.Data.Domain;
 
 namespace WatchShopApp.Core.Contracts
 {
-    internal interface IManufacturerService
+    public interface IManufacturerService
     {
         List<Manufacturer> GetManufacturer();
         Manufacturer GetManufacturerId(int manufacturerId);

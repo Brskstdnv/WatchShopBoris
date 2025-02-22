@@ -28,24 +28,25 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Index">Products</a>
                         </li>
+                        @if ((this.User.Identity.IsAuthenticated) && (this.User.IsInRole("Administrator")))
+                        {
+                            <li class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    <strong>Statistic Modul</strong>
+                                </button>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="/Client/Index"><strong>Clients</strong></a></li>
+                                    <li><a class="dropdown-item" href="/Order/Index"><strong>Orders</strong></a></li>
+                                    @*  <li><a class="dropdown-item"  href="/Statistic/Index"><strong>Statistic</strong></a></li> *@
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Statistic" asp-action="Index"><strong>Statistic</strong></a></li>
+                                </ul>
+                            </li>
+                        }
                     </ul>
                     <partial name="_LoginPartial" />
-                    @if ((this.User.Identity.IsAuthenticated) && (this.User.IsInRole("Administrator")))
-                    {
-                        <li class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                <strong>Statistic Modul</strong>
-                            </button>
-
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item" href="/Client/Index"><strong>Clients</strong></a></li>
-                                <li><a class="dropdown-item" href="/Order/Index"><strong>Orders</strong></a></li>
-                                @*  <li><a class="dropdown-item"  href="/Statistic/Index"><strong>Statistic</strong></a></li> *@
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Statistic" asp-action="Index"><strong>Statistic</strong></a></li>
-                            </ul>
-                        </li>
-                    }
+                    
                 </div>
             </div>
         </nav>

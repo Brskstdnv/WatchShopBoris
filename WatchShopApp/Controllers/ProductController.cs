@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-
+using WatchShop.Infrastructure.Data.Domain;
 using WatchShopApp.Core.Contracts;
 using WatchShopApp.Core.Service;
 using WatchShopApp.Models.Manufacturer;
@@ -8,6 +9,7 @@ using WatchShopApp.Models.Product;
 
 namespace WatchShopApp.Controllers
 {
+    [Authorize(Roles ="Administrator")]
     public class ProductController : Controller
     {
         private IProductService _productService;
@@ -25,6 +27,7 @@ namespace WatchShopApp.Controllers
 
 
         // GET: ProductCotntroller
+        [AllowAnonymous]
         public ActionResult Index(string searchStringCategoryName, string searchStringManufactureName)
         {
             List<ProductIndexVM> products = _productService.GetProducts(searchStringCategoryName, searchStringManufactureName)
@@ -37,6 +40,7 @@ namespace WatchShopApp.Controllers
                 CategoryId = product.CategoryId,
                 CategoryName = product.Category.CategoryName,
                 PictureUrl = product.Picture,
+                Description = product.Description,
                 Quantity = product.Quantity,
                 Price = product.Price,
                 Discount = product.Discount
@@ -46,9 +50,29 @@ namespace WatchShopApp.Controllers
         }
 
         // GET: ProductCotntroller/Details/5
+        [AllowAnonymous]
         public ActionResult Details(int id)
         {
-            return View();
+            Product item = _productService.GetProductById(id);
+            if(item == null)
+            {
+                return NotFound();
+            }
+            ProductDetailsVM product = new ProductDetailsVM()
+            {
+                Id = item.Id,
+                ProductName = item.ProductName,
+                ManufactureId = item.ManufacturerdId,
+                ManufactureName = item.Manufacturer.Name,
+                CategoryId = item.CategoryId,
+                CategoryName = item.Category.CategoryName,
+                PictureUrl = item.Picture,
+                Description = item.Description,
+                Quantity = item.Quantity,
+                Price = item.Price,
+                Discount = item.Discount
+            };
+            return View(product);
         }
 
         // GET: ProductCotntroller/Create
@@ -90,28 +114,84 @@ namespace WatchShopApp.Controllers
         // GET: ProductCotntroller/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            var product = _productService.GetProductById(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            ProductEditVM updatedProduct = new ProductEditVM()
+            {
+                Id = product.Id,
+                ProductName = product.ProductName,
+                ManufacturerId = product.ManufacturerdId,
+                // Manufactrers = product.Manufacturer,
+                CategoryId = product.CategoryId,
+                // Categories = product.Category,
+                PictureUrl = product.Picture,
+                Description = product.Description,
+                Quantity = product.Quantity,
+                Price = product.Price,
+                Discount = product.Discount
+            };
+
+            updatedProduct.Manufactrers = _manufacturerService.GetManufacturer()
+                .Select(x => new ManufactrerPairVM()
+                {
+                    Id = x.Id,
+                    Name = x.Name
+                }).ToList();
+
+            updatedProduct.Categories = _categoryService.GetCategories()
+                .Select(x => new Models.Category.CategoryPairVM()
+                {
+                    Id = x.Id,
+                    Name = x.CategoryName
+                }).ToList();
+
+            return View(updatedProduct);
         }
 
         // POST: ProductCotntroller/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, ProductEditVM product)
         {
-            try
+           if(ModelState.IsValid)
             {
-                return RedirectToAction(nameof(Index));
+                var updated = _productService.Update(id, product.ProductName, product.ManufacturerId, product.CategoryId, product.PictureUrl, product.Description, product.Quantity, product.Price, product.Discount);
+                if (updated)
+                {
+                    return this.RedirectToAction("Index");
+                }
             }
-            catch
-            {
-                return View();
-            }
+            return View(product);
         }
 
         // GET: ProductCotntroller/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            Product item = _productService.GetProductById(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+
+            ProductDeleteVM product = new ProductDeleteVM()
+            {
+                Id = item.Id,
+                ProductName = item.ProductName,
+                ManufactureId = item.ManufacturerdId,
+                ManufactureName = item.Manufacturer.Name,
+                CategoryId = item.CategoryId,
+                CategoryName = item.Category.CategoryName,
+                PictureUrl = item.Picture,
+                Description = item.Description,
+                Quantity = item.Quantity,
+                Price = item.Price,
+                Discount = item.Discount
+            };
+
+            return View(product);
         }
 
         // POST: ProductCotntroller/Delete/5
@@ -119,14 +199,23 @@ namespace WatchShopApp.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)
         {
-            try
+            var delete = _productService.RemoveById(id);
+
+            if (delete)
             {
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Success");
+
             }
-            catch
+            else
             {
                 return View();
             }
+
+
+        }
+        public IActionResult Success()
+        {
+            return View();
         }
     }
 }

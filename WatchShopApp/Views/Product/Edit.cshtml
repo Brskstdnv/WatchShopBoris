@@ -17,18 +17,16 @@
             </div>
             <div class="form-group">
                 <label asp-for="ManufacturerId" class="control-label"></label>
-                @*<input asp-for="BrandId" class="form-control" />*@
-
-                18
-
+                @*<input asp-for="CategoryId" class="form-control" />*@
                 <select asp-for="ManufacturerId" class="form-control text-center">
-                    @foreach (var brand in Model.Manufactrers)
+                    @foreach (var manufacturer in Model.Manufactrers)
                     {
-                        <option value=" @brand.Id">@brand.Name</option>
+                        <option value="@manufacturer.Id">@manufacturer.Name</option>
                     }
                 </select>
                 <span asp-validation-for="ManufacturerId" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="CategoryId" class="control-label"></label>
                 @*<input asp-for="CategoryId" class="form-control" />*@

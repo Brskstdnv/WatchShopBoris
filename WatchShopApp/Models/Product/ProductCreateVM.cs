@@ -32,10 +32,10 @@ namespace WatchShopApp.Models.Product
         public virtual List<CategoryPairVM> Categories { get; set; } = new List<CategoryPairVM>();
 
         [Display(Name = "Picture")]
-        public string PictureUrl { get; set; }
+        public string PictureUrl { get; set; } = null!;
 
         [Display(Name = "Description")]
-        public string Description { get; set; }
+        public string Description { get; set; } = null!;
 
         [Range(0,5000)]
         [Display(Name = "Quantity")]

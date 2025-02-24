@@ -34,6 +34,7 @@ namespace WatchShopApp.Core.Service
                 Picture = picture,
                 Quantity = quantity,
                 Price = price,
+                Description = description,
                 Discount = discount
 
 
@@ -100,7 +101,7 @@ namespace WatchShopApp.Core.Service
             product.Quantity = quantity;
             product.Price = price;
             product.Discount = discount;
-            
+            product.Description = description;
             _context.Update(product);
             return _context.SaveChanges() != 0;
         }

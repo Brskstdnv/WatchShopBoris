@@ -14,20 +14,20 @@
                 <input asp-for="ProductName" class="form-control" />
                 <span asp-validation-for="ProductName" class="text-danger"></span>
 
-                8
-
             </div>
+
             <div class="form-group">
                 <label asp-for="ManufacturerId" class="control-label"></label>
-                @*<input asp-for="BrandId" class="form-control" />*@
+                @*<input asp-for="CategoryId" class="form-control" />*@
                 <select asp-for="ManufacturerId" class="form-control text-center">
-                    @foreach (var brand in Model.Manufacturers)
+                    @foreach (var manufacturer in Model.Manufacturers)
                     {
-                        <option value=" @brand.Id">@brand.Name</option>
+                        <option value="@manufacturer.Id">@manufacturer.Name</option>
                     }
                 </select>
                 <span asp-validation-for="ManufacturerId" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="CategoryId" class="control-label"></label>
                 @*<input asp-for="CategoryId" class="form-control" />*@
@@ -39,6 +39,7 @@
                 </select>
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="PictureUrl" class="control-label"></label>
                 <input asp-for="PictureUrl" class="form-control" />

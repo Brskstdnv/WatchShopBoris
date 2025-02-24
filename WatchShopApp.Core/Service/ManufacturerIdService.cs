@@ -25,7 +25,7 @@ namespace WatchShopApp.Core.Service
 
         public List<Manufacturer> GetManufacturer()
         {
-            List<Manufacturer> manufacturers = new List<Manufacturer>();
+            List<Manufacturer> manufacturers = _context.Manufacturers.ToList();
             return manufacturers;
         }
 

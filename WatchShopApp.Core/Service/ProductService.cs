@@ -23,7 +23,7 @@ namespace WatchShopApp.Core.Service
         {
             _context = context;
         }
-        public bool Create(string name, int categoryId, int manufacturerId, string picture, string description, int quantity, decimal price, decimal discount)
+        public bool Create(string name, int manufacturerId, int categoryId,  string picture, string description, int quantity, decimal price, decimal discount)
         {
             Product item = new Product()
             {

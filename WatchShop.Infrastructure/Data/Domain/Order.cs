@@ -14,15 +14,15 @@ namespace WatchShop.Infrastructure.Data.Domain
 
         public DateTime OrderDate { get; set; }
         [Required]
-        public int ProducctId { get; set; }
+        public int ProductId { get; set; }
         public virtual Product Product { get; set; } = null!;
         [Required]
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         public virtual ApplicationUser User { get; set; } = null!;
-        public int Quantity { get; set; }
+        public int Quantity { get; set; } = 1;
         public decimal Price { get; set; }
         [Range(0, 100)]
-        public decimal Discount { get; set; }
+        public decimal Discount { get; set; } 
         public decimal TotalPrice { get { return this.Quantity * this.Price - this.Quantity * this.Price * this.Discount / 100; } }
     }
 }

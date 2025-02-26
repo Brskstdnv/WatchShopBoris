@@ -1,0 +1,80 @@
+﻿@model IEnumerable<WatchShopApp.Models.Order.OrderIndexVM>
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>My Orders</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product)
+            </th>
+            <th>
+
+
+
+                @Html.DisplayNameFor(model => model.Picture)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Discount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalPrice)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrderDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product)
+                </td>
+                <td>
+                    <img src="@Html.DisplayFor(modelItem => item.Picture)" alt="Image" width="100" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Discount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalPrice)
+                </td>
+                <li class=" nav-item">
+                    <a class=" nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Index">Products</a>
+                </li>
+                @if (this.User.Identity.IsAuthenticated)
+                {
+                    <li class=" nav-item">
+                        <a class=" nav-link text-dark" asp-area="" asp-controller="Order" asp-action="MyOrders">MyOrders</a>
+                    </li>
+                }
+                @if ((this.User.Identity.IsAuthenticated) && (this.User.IsInRole("Administtrator")))
+                {
+                    <li class="nav-item"></li>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

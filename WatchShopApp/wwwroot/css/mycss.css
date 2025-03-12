@@ -13606,3 +13606,6 @@ th {
 .card .h6 {
     color: inherit;
 }
+.partialName {
+    color: white;
+}

@@ -37,6 +37,7 @@ namespace WatchShopApp.Controllers
                 ProductName = product.ProductName,
                 QuantityInStock = product.Quantity,
                 Price = product.Price,
+                Description = product.Description,  
                 Discount = product.Discount,
                 Picture = product.Picture,
             };

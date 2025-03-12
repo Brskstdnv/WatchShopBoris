@@ -39,6 +39,7 @@ namespace WatchShopApp.Core.Service
                 Id = productId,
                 UserId = userId,
                 Quantity = quantity,
+               
                 Price = product.Price,
                 Discount = product.Discount
             };

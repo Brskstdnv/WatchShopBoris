@@ -12,7 +12,7 @@ namespace WatchShopApp.Models.Order
         public string ProductName { get; set; } = null!;
         public int QuantityInStock {  get; set; }
 
-        public string Picture {  get; set; }
+        public string Picture {  get; set; } = null!;
 
         public string Description { get; set; } = null!;
 

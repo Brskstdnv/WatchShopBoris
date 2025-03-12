@@ -71,14 +71,15 @@
                     
 
                     <!-- Логин / Логаут бутон -->
-                    @if (User.Identity.IsAuthenticated)
+               @*      @if (User.Identity.IsAuthenticated)
                     {
                         <a class="btn btn-outline-light ms-2" asp-controller="Account" asp-action="Logout">Logout</a>
                     }
                     else
                     {
                         <a class="btn btn-outline-light ms-2" asp-controller="Account" asp-action="Login">Login</a>
-                    }
+                    } *@
+                    <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>
@@ -132,7 +133,7 @@
                             </li>
                         }
                     </ul> *@
-                    <partial name="_LoginPartial" />
+                @*     <partial name="_LoginPartial" /> *@
                     
                 </div>
             </div>

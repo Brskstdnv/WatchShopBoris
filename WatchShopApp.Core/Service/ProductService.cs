@@ -54,7 +54,7 @@ namespace WatchShopApp.Core.Service
             return _context.Products.Find(productId);
         }
 
-        public List<Product> GetProducts(string searchStringCategoryName, string searchStringManufacturerName)
+        public List<Product> GetProducts(string searchStringCategoryName, string searchStringManufacturerName, string searchStringProductName)
         {
             List<Product> products = _context.Products.ToList();
             if (!String.IsNullOrEmpty(searchStringManufacturerName) && !String.IsNullOrEmpty(searchStringManufacturerName))
@@ -69,6 +69,10 @@ namespace WatchShopApp.Core.Service
             else if (!String.IsNullOrEmpty(searchStringManufacturerName))
             {
                 products = products.Where(x => x.Manufacturer.Name.ToLower().Contains(searchStringManufacturerName.ToLower())).ToList();
+            }
+            else if(!String.IsNullOrEmpty(searchStringProductName))
+            {
+                products = products.Where(x => x.ProductName.ToLower().Contains(searchStringProductName.ToLower())).ToList();
             }
             return products;
         }

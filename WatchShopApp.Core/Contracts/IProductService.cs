@@ -20,6 +20,6 @@ namespace WatchShopApp.Core.Contracts
 
         bool RemoveById(int productId);
 
-        List<Product> GetProducts(string searchStringCategoryName, string searchStringManufacturerName);
+        List<Product> GetProducts(string searchStringCategoryName, string searchStringManufacturerName, string searchStringProductName);
     }
 }

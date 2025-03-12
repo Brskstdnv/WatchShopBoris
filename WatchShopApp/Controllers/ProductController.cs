@@ -28,9 +28,9 @@ namespace WatchShopApp.Controllers
 
         // GET: ProductCotntroller
         [AllowAnonymous]
-        public ActionResult Index(string searchStringCategoryName, string searchStringManufactureName)
+        public ActionResult Index(string searchStringCategoryName, string searchStringManufactureName, string searchStringProductName)
         {
-            List<ProductIndexVM> products = _productService.GetProducts(searchStringCategoryName, searchStringManufactureName)
+            List<ProductIndexVM> products = _productService.GetProducts(searchStringCategoryName, searchStringManufactureName, searchStringProductName)
             .Select(product => new ProductIndexVM
             {
                 Id = product.Id,

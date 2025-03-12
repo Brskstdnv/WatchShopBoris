@@ -20,9 +20,18 @@ namespace WatchShopApp.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Contact()
         {
             return View();
+        }
+
+
+        [HttpPost]
+        public IActionResult SendContact(string name, string email, string message)
+        {
+            // Тук можеш да добавиш логика за запазване в база или изпращане на email
+            ViewBag.Message = "Your message has been sent!";
+            return View("Contact");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -30,5 +39,7 @@ namespace WatchShopApp.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
     }
 }

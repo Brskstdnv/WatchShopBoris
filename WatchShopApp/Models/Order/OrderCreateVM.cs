@@ -14,7 +14,7 @@ namespace WatchShopApp.Models.Order
 
         public string Picture {  get; set; } = null!;
 
-        public string Description { get; set; } = null!;
+        //public string Description { get; set; } = null!;
 
         [Range(1,100)]
         public int Quantity {  get; set; }

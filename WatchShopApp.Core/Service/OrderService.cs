@@ -25,31 +25,27 @@ namespace WatchShopApp.Core.Service
 
         public bool Create(int productId, string userId, int quantity)
         {
-            var product = _context.Products.SingleOrDefault(x=>x.Id == productId);
+            var product = _context.Products.SingleOrDefault(x => x.Id == productId);
 
-            if(product == null)
+            if (product == null)
             {
                 return false;
-
             }
 
             Order item = new Order()
             {
                 OrderDate = DateTime.Now,
-                Id = productId,
                 UserId = userId,
+                ProductId = productId, // Вместо Id = productId
                 Quantity = quantity,
-               
                 Price = product.Price,
                 Discount = product.Discount
             };
 
             product.Quantity -= quantity;
 
-
-            this._context.Products.Update(product);
-            this._context.Orders.Add(item);
-
+            _context.Products.Update(product);
+            _context.Orders.Add(item);
 
             return _context.SaveChanges() != 0;
         }

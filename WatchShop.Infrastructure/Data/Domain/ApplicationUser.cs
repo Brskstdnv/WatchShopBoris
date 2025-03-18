@@ -24,6 +24,8 @@ namespace WatchShop.Infrastructure.Data.Domain
         [Required]
         public string Adress {  get; set; } = null!;
 
+        public virtual List<Order> Orders { get; set; } = new List<Order>();
+
 
 
     }

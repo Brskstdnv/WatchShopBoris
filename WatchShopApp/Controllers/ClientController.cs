@@ -4,17 +4,23 @@ using Microsoft.AspNetCore.Mvc;
 
 using WatchShop.Infrastructure.Data.Domain;
 
+using WatchShopApp.Core.Contracts;
+using WatchShopApp.Core.Contracts;
+using WatchShopApp.Core.Service;
 using WatchShopApp.Models.Client;
+using System.Linq;
 
 namespace WatchShopApp.Controllers
 {
     public class ClientController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly IOrderService _orderService;
 
-        public ClientController(UserManager<ApplicationUser> userManager)
+        public ClientController(UserManager<ApplicationUser> userManager, IOrderService orderService)
         {
             _userManager = userManager;
+            _orderService = orderService;
         }
 
 
@@ -76,6 +82,12 @@ namespace WatchShopApp.Controllers
             {
                 return NotFound();
             }
+            var orders = _orderService.GetOrdersByUser(id);
+            if(orders.Any() == false)
+            {
+                return  RedirectToAction("NoAccess");
+            }
+
             IdentityResult result = await _userManager.DeleteAsync(user);
             if (result.Succeeded)
             {
@@ -85,6 +97,11 @@ namespace WatchShopApp.Controllers
         }
 
         public ActionResult Success()
+        {
+            return View();
+        }
+
+        public ActionResult NoAccess()
         {
             return View();
         }

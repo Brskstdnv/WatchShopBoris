@@ -1,5 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
+using WatchShop.Infrastructure.Data.Domain;
+
+using WatchShopApp.Models.Order;
+
 namespace WatchShopApp.Models.Client
 {
     public class ClientDeleteVM
@@ -14,5 +18,7 @@ namespace WatchShopApp.Models.Client
 
         public string Address { get; set; } = null!;
         public string Email { get; set; } = null!;
+
+        //public List<Order> {get; set;} = new List<Order>();
     }
 }

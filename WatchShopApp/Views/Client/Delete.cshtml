@@ -41,7 +41,10 @@
     </dl>
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        @* @if (Model.Orders == null || !Model.Orders.Any())
+        { *@
+            <input type="submit" value="Delete" class="btn btn-danger" />
+        @* } *@
         <a asp-action="Index" class="btn btn-warning">Back to List</a>
     </form>
 </div>

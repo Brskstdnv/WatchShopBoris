@@ -14,7 +14,7 @@ namespace WatchShopApp.Core.Contracts
 
         List<Order> Orders();
 
-        List<Order> GetOrdersByUser(string userId);
+        public List<Order> GetOrdersByUser(string userId);
         Order GetOrderById(int orderId);
         bool RemoveById(int orderId);
         bool Update(int orderId, int productId, string userId, int quantity);

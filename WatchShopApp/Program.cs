@@ -41,6 +41,7 @@ namespace WatchShopApp
             builder.Services.AddTransient<IProductService, ProductService>();
             builder.Services.AddTransient<IOrderService, OrderService>();
             builder.Services.AddTransient<IStatisticService,  StatisticService>();
+            builder.Services.AddTransient<IShoppingCartService, ShoppingCartService>();
 
             var app = builder.Build();
 

@@ -37,9 +37,9 @@ namespace WatchShopApp.Models.Product
         [Display(Name = "Description")]
         public string Description { get; set; } = null!;
 
-        [Range(0,5000)]
+        [Range(0, 5000)]
         [Display(Name = "Quantity")]
-        public int Quantity {  get; set; }
+        public int Quantity { get; set; } = 1;
 
         [Display(Name = "Price")]
         public decimal Price { get; set; }

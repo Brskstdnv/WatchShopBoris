@@ -1,50 +1,79 @@
-﻿@model WatchShopApp.Models.ShoppingCart.ShoppingCartVM
+﻿@model IEnumerable<WatchShopApp.Models.ShoppingCart.ShoppingCartVM>
 @{
     ViewData["Title"] = "Index";
 }
-<h2>Your Shopping Cart</h2>
+<h1>My Orders</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product)
+            </th>
+            <th>
 
-@if (Model.Items.Count == 0)
-{
-    <p>Your cart is empty.</p>
-}
-else
-{
-    <table class="table">
-        <thead>
+                @Html.DisplayNameFor(model => model.Picture)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Discount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalPrice)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
             <tr>
-                <th>Product</th>
-                <th>Price</th>
-                <th>Quantity</th>
-                <th>Total</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model.Items)
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrderDate)
+                </td>
+                @*<td>
+            @Html.DisplayFor(modelItem => item.Product)
+            </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product)
+                </td>
+                <td>
+                    <img src="@Html.DisplayFor(modelItem => item.Picture)" alt="Image" width="100" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Discount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalPrice)
+                </td>
+                @* <li class=" nav-item">
+            <a class=" nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Index">Products</a>
+            </li>*@
+                @*@if (this.User.Identity.IsAuthenticated)
             {
-                <tr>
-                    <td>@item.ProductName</td>
-                    <td>@item.Price</td>
-                    <td>@item.Quantity</td>
-                    <td>@(item.Quantity * item.Price)</td>
-                    <td>
-                        <!-- Премахване на продукт -->
-                        <a asp-action="Remove" asp-route-productId="@item.ProductId" class="btn btn-danger">Remove</a>
-                    </td>
-                </tr>
+            <li class=" nav-item">
+            <a class=" nav-link text-dark" asp-area="" asp-controller="Order" asp-action="MyOrders">MyOrders</a>
+            </li>
             }
-        </tbody>
-    </table>
-
-    <h3>Total: @Model.TotalPrice</h3>
-
-    <!-- Изчистване на количката -->
-    <a asp-action="Clear" class="btn btn-warning">Clear Cart</a>
-
-    <br />
-    <br />
-    <!-- Бутони за продължаване към плащане или обратно към магазина -->
-    <a href="@Url.Action("Index", "Product")" class="btn btn-primary">Continue Shopping</a>
-    <a href="@Url.Action("Checkout", "Order")" class="btn btn-success">Proceed to Checkout</a>
+            @if ((this.User.Identity.IsAuthenticated) && (this.User.IsInRole("Administtrator")))
+            {
+            <li class="nav-item"></li>
+            }*@
+            </tr>
+        }
+    </tbody>
+</table>
 }

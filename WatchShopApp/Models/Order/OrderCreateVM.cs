@@ -16,8 +16,8 @@ namespace WatchShopApp.Models.Order
 
         //public string Description { get; set; } = null!;
 
-        [Range(1, 100)]
-        public int Quantity { get; set; } = 1;
+
+        public int Quantity { get; set; } 
         public decimal Price {  get; set; }
         public decimal Discount {  get; set; }
 

@@ -3,20 +3,132 @@
   "WorkspaceRootPath": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}|WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshop.infrastructure\\data\\domain\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}|WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj|solutionrelative:watchshop.infrastructure\\data\\domain\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}|WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshop.infrastructure\\data\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}|WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj|solutionrelative:watchshop.infrastructure\\data\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshopapp\\controllers\\shoppingcartitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\controllers\\shoppingcartitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\views\\client\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\client\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\views\\client\\noaccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\client\\noaccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshopapp\\wwwroot\\css\\productcss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\views\\order\\denied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\order\\denied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshopapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshopapp\\views\\shoppingcartitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\shoppingcartitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshopapp\\wwwroot\\css\\homecss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\wwwroot\\css\\homecss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshopapp\\models\\shoppingcart\\shoppingcartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\models\\shoppingcart\\shoppingcartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\models\\order\\orderindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\models\\order\\orderindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\models\\order\\ordercreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\models\\order\\ordercreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshopapp\\views\\order\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\order\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}|WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshop.infrastructure\\data\\domain\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}|WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj|solutionrelative:watchshop.infrastructure\\data\\domain\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}|WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshop.infrastructure\\data\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}|WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj|solutionrelative:watchshop.infrastructure\\data\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\wwwroot\\css\\productcss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\wwwroot\\css\\productcss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshopapp\\models\\product\\productdeletevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\models\\product\\productdeletevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshopapp\\models\\product\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\models\\product\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}|WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshop.infrastructure\\data\\domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}|WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj|solutionrelative:watchshop.infrastructure\\data\\domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D6A1CF6-6991-477F-A69C-C1BC682BE401}|WatchShopApp.Core\\WatchShopApp.Core.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp.core\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D6A1CF6-6991-477F-A69C-C1BC682BE401}|WatchShopApp.Core\\WatchShopApp.Core.csproj|solutionrelative:watchshopapp.core\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D6A1CF6-6991-477F-A69C-C1BC682BE401}|WatchShopApp.Core\\WatchShopApp.Core.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshopapp.core\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D6A1CF6-6991-477F-A69C-C1BC682BE401}|WatchShopApp.Core\\WatchShopApp.Core.csproj|solutionrelative:watchshopapp.core\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}|WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshop.infrastructure\\data\\domain\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3ABE81B-151A-4C3F-9331-A0E666FEF7C1}|WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj|solutionrelative:watchshop.infrastructure\\data\\domain\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\views\\statistic\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\statistic\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,27 +139,11 @@
       "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshopapp\\views\\client\\noaccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\client\\noaccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\views\\client\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\views\\client\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshopapp\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshopapp\\models\\client\\clientdeletevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp\\models\\client\\clientdeletevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA5C9C20-2648-40F5-9BD0-0859336B4FBD}|WatchShopApp\\WatchShopApp.csproj|solutionrelative:watchshopapp\\models\\client\\clientdeletevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D6A1CF6-6991-477F-A69C-C1BC682BE401}|WatchShopApp.Core\\WatchShopApp.Core.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshopapp.core\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6A1CF6-6991-477F-A69C-C1BC682BE401}|WatchShopApp.Core\\WatchShopApp.Core.csproj|solutionrelative:watchshopapp.core\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D6A1CF6-6991-477F-A69C-C1BC682BE401}|WatchShopApp.Core\\WatchShopApp.Core.csproj|c:\\users\\student\\desktop\\diplomen proekt\\watchshopboris\\watchshopapp.core\\contracts\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D6A1CF6-6991-477F-A69C-C1BC682BE401}|WatchShopApp.Core\\WatchShopApp.Core.csproj|C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\watchshopapp.core\\contracts\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D6A1CF6-6991-477F-A69C-C1BC682BE401}|WatchShopApp.Core\\WatchShopApp.Core.csproj|solutionrelative:watchshopapp.core\\contracts\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -65,63 +161,78 @@
           "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\Data\\Domain\\Order.cs",
+              "RelativeDocumentMoniker": "WatchShop.Infrastructure\\Data\\Domain\\Order.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\Data\\Domain\\Order.cs",
+              "RelativeToolTip": "WatchShop.Infrastructure\\Data\\Domain\\Order.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwBoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T07:58:04.935Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WatchShopApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WatchShopApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-17T08:01:18.416Z",
+              "WhenOpened": "2025-02-26T07:18:43.581Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp.Core\\Contracts\\IOrderService.cs",
-              "RelativeDocumentMoniker": "WatchShopApp.Core\\Contracts\\IOrderService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp.Core\\Contracts\\IOrderService.cs",
-              "RelativeToolTip": "WatchShopApp.Core\\Contracts\\IOrderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T08:24:00.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "StatisticService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp.Core\\Service\\StatisticService.cs",
-              "RelativeDocumentMoniker": "WatchShopApp.Core\\Service\\StatisticService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp.Core\\Service\\StatisticService.cs",
-              "RelativeToolTip": "WatchShopApp.Core\\Service\\StatisticService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T08:24:38.227Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ClientController.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Controllers\\ClientController.cs",
-              "RelativeDocumentMoniker": "WatchShopApp\\Controllers\\ClientController.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Controllers\\ClientController.cs",
-              "RelativeToolTip": "WatchShopApp\\Controllers\\ClientController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAGQAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T10:17:00.767Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\ShoppingCartItem\\Index.cshtml",
+              "RelativeDocumentMoniker": "WatchShopApp\\Views\\ShoppingCartItem\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\ShoppingCartItem\\Index.cshtml",
+              "RelativeToolTip": "WatchShopApp\\Views\\ShoppingCartItem\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAEoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T10:26:45.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "Denied.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Order\\Denied.cshtml",
+              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Order\\Denied.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Order\\Denied.cshtml",
+              "RelativeToolTip": "WatchShopApp\\Views\\Order\\Denied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T08:04:14.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NoAccess.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Client\\NoAccess.cshtml",
+              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Client\\NoAccess.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Client\\NoAccess.cshtml",
+              "RelativeToolTip": "WatchShopApp\\Views\\Client\\NoAccess.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T08:31:44.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Success.cshtml",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Client\\Success.cshtml",
               "RelativeDocumentMoniker": "WatchShopApp\\Views\\Client\\Success.cshtml",
@@ -135,45 +246,110 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WatchShopApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-26T07:18:43.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Product\\Details.cshtml",
-              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Product\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Product\\Details.cshtml",
-              "RelativeToolTip": "WatchShopApp\\Views\\Product\\Details.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T10:21:46.104Z",
+              "Title": "ShoppingCartItemController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Controllers\\ShoppingCartItemController.cs",
+              "RelativeDocumentMoniker": "WatchShopApp\\Controllers\\ShoppingCartItemController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Controllers\\ShoppingCartItemController.cs",
+              "RelativeToolTip": "WatchShopApp\\Controllers\\ShoppingCartItemController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T10:25:18.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "WatchShopApp\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAH0AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-19T10:20:14.68Z",
+              "Title": "ShoppingCartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\Data\\Domain\\ShoppingCartItem.cs",
+              "RelativeDocumentMoniker": "WatchShop.Infrastructure\\Data\\Domain\\ShoppingCartItem.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\Data\\Domain\\ShoppingCartItem.cs",
+              "RelativeToolTip": "WatchShop.Infrastructure\\Data\\Domain\\ShoppingCartItem.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T07:54:39.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "WatchShopApp\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T10:32:24.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "homeCss.css",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\wwwroot\\css\\homeCss.css",
+              "RelativeDocumentMoniker": "WatchShopApp\\wwwroot\\css\\homeCss.css",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\wwwroot\\css\\homeCss.css",
+              "RelativeToolTip": "WatchShopApp\\wwwroot\\css\\homeCss.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-26T07:37:03.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderIndexVM.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Models\\Order\\OrderIndexVM.cs",
+              "RelativeDocumentMoniker": "WatchShopApp\\Models\\Order\\OrderIndexVM.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Models\\Order\\OrderIndexVM.cs",
+              "RelativeToolTip": "WatchShopApp\\Models\\Order\\OrderIndexVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T07:58:44.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Models\\Order\\OrderCreateVM.cs",
+              "RelativeDocumentMoniker": "WatchShopApp\\Models\\Order\\OrderCreateVM.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Models\\Order\\OrderCreateVM.cs",
+              "RelativeToolTip": "WatchShopApp\\Models\\Order\\OrderCreateVM.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T07:58:40.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MyOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Order\\MyOrders.cshtml",
+              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Order\\MyOrders.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Order\\MyOrders.cshtml",
+              "RelativeToolTip": "WatchShopApp\\Views\\Order\\MyOrders.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAE0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T10:29:39.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShoppingCartVM.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Models\\ShoppingCart\\ShoppingCartVM.cs",
+              "RelativeDocumentMoniker": "WatchShopApp\\Models\\ShoppingCart\\ShoppingCartVM.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Models\\ShoppingCart\\ShoppingCartVM.cs",
+              "RelativeToolTip": "WatchShopApp\\Models\\ShoppingCart\\ShoppingCartVM.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T10:30:26.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ProductCss.css",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\wwwroot\\css\\ProductCss.css",
               "RelativeDocumentMoniker": "WatchShopApp\\wwwroot\\css\\ProductCss.css",
@@ -186,33 +362,256 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
+              "Title": "Manufacturer.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\Data\\Domain\\Manufacturer.cs",
+              "RelativeDocumentMoniker": "WatchShop.Infrastructure\\Data\\Domain\\Manufacturer.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\Data\\Domain\\Manufacturer.cs",
+              "RelativeToolTip": "WatchShop.Infrastructure\\Data\\Domain\\Manufacturer.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwBIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T09:15:22.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Order\\Create.cshtml",
+              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Order\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Order\\Create.cshtml",
+              "RelativeToolTip": "WatchShopApp\\Views\\Order\\Create.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAEkAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T08:01:22.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "WatchShopApp\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "WatchShopApp\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAowHEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T07:59:54.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\Data\\Domain\\Category.cs",
+              "RelativeDocumentMoniker": "WatchShop.Infrastructure\\Data\\Domain\\Category.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\Data\\Domain\\Category.cs",
+              "RelativeToolTip": "WatchShop.Infrastructure\\Data\\Domain\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T10:15:57.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp.Core\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "WatchShopApp.Core\\Service\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp.Core\\Service\\CategoryService.cs",
+              "RelativeToolTip": "WatchShopApp.Core\\Service\\CategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:14:17.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Models\\Product\\ProductCreateVM.cs",
+              "RelativeDocumentMoniker": "WatchShopApp\\Models\\Product\\ProductCreateVM.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Models\\Product\\ProductCreateVM.cs",
+              "RelativeToolTip": "WatchShopApp\\Models\\Product\\ProductCreateVM.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:22:00.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductDeleteVM.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Models\\Product\\ProductDeleteVM.cs",
+              "RelativeDocumentMoniker": "WatchShopApp\\Models\\Product\\ProductDeleteVM.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Models\\Product\\ProductDeleteVM.cs",
+              "RelativeToolTip": "WatchShopApp\\Models\\Product\\ProductDeleteVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:22:07.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp.Core\\Service\\OrderService.cs",
               "RelativeDocumentMoniker": "WatchShopApp.Core\\Service\\OrderService.cs",
               "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp.Core\\Service\\OrderService.cs",
               "RelativeToolTip": "WatchShopApp.Core\\Service\\OrderService.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDkAAAAqAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAswDgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T08:24:03.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NoAccess.cshtml",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Client\\NoAccess.cshtml",
-              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Client\\NoAccess.cshtml",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Client\\NoAccess.cshtml",
-              "RelativeToolTip": "WatchShopApp\\Views\\Client\\NoAccess.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "DocumentIndex": 24,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WatchShopApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T08:31:44.643Z",
+              "WhenOpened": "2025-03-17T08:01:18.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\Data\\Domain\\Product.cs",
+              "RelativeDocumentMoniker": "WatchShop.Infrastructure\\Data\\Domain\\Product.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\Data\\Domain\\Product.cs",
+              "RelativeToolTip": "WatchShop.Infrastructure\\Data\\Domain\\Product.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T09:08:23.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 25,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\Data\\Domain\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "WatchShop.Infrastructure\\Data\\Domain\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\Data\\Domain\\ApplicationUser.cs",
+              "RelativeToolTip": "WatchShop.Infrastructure\\Data\\Domain\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T09:08:29.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp.Core\\Contracts\\IOrderService.cs",
+              "RelativeDocumentMoniker": "WatchShopApp.Core\\Contracts\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp.Core\\Contracts\\IOrderService.cs",
+              "RelativeToolTip": "WatchShopApp.Core\\Contracts\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T08:24:00.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WatchShopApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WatchShopApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:01:59.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "WatchShopApp\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T08:16:59.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Statistic\\Index.cshtml",
+              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Statistic\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Statistic\\Index.cshtml",
+              "RelativeToolTip": "WatchShopApp\\Views\\Statistic\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T08:08:33.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "WatchShopApp\\Views\\Order\\Index.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T08:04:17.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "WatchShopApp\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "WatchShopApp\\Controllers\\ClientController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAGQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:17:00.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "StatisticService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp.Core\\Service\\StatisticService.cs",
+              "RelativeDocumentMoniker": "WatchShopApp.Core\\Service\\StatisticService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp.Core\\Service\\StatisticService.cs",
+              "RelativeToolTip": "WatchShopApp.Core\\Service\\StatisticService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T08:24:38.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "WatchShopApp\\Views\\Product\\Details.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T10:21:46.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "WatchShopApp\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "WatchShopApp\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAH0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T10:20:14.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "ClientDeleteVM.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Models\\Client\\ClientDeleteVM.cs",
               "RelativeDocumentMoniker": "WatchShopApp\\Models\\Client\\ClientDeleteVM.cs",
@@ -220,12 +619,11 @@
               "RelativeToolTip": "WatchShopApp\\Models\\Client\\ClientDeleteVM.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T08:24:16.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T08:24:16.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 33,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\Views\\Product\\Edit.cshtml",
               "RelativeDocumentMoniker": "WatchShopApp\\Views\\Product\\Edit.cshtml",
@@ -233,8 +631,7 @@
               "RelativeToolTip": "WatchShopApp\\Views\\Product\\Edit.cshtml",
               "ViewState": "AQIAACEAAAAAAAAAAAAAAC8AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T10:21:07.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T10:21:07.538Z"
             }
           ]
         }

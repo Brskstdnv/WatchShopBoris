@@ -25,4 +25,8 @@
     <ProjectReference Include="..\WatchShopApp.Core\WatchShopApp.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
 </Project>

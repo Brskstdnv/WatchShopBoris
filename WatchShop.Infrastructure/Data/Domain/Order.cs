@@ -19,7 +19,7 @@ namespace WatchShop.Infrastructure.Data.Domain
         [Required]
         public string UserId { get; set; }
         public virtual ApplicationUser User { get; set; } = null!;
-        public int Quantity { get; set; } = 1;
+        public int Quantity { get; set; } 
         public decimal Price { get; set; }
         [Range(0, 100)]
         public decimal Discount { get; set; } 

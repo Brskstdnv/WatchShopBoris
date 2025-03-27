@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,11 +29,12 @@ namespace WatchShopApp.Core.Service
             if (existingItem != null)
             {
                 existingItem.Quantity += item.Quantity;
-            }
-            else
-            {
                 _context.ShoppingCarts.Add(item);
             }
+            //else
+            //{
+            //    _context.ShoppingCarts.Add(item);
+            //}
 
             _context.SaveChanges();
         }
@@ -45,7 +48,10 @@ namespace WatchShopApp.Core.Service
 
         public List<ShoppingCartItem> GetShoppingCartItems(string userId)
         {
-            return _context.ShoppingCarts.Where(x => x.UserId == userId).ToList();
+            return _context.ShoppingCarts
+     .Where(x => x.UserId == userId)
+     .Include(x => x.Product) 
+     .ToList();
         }
 
         public void RemoveFromCart(ShoppingCartItem item)
@@ -65,5 +71,6 @@ namespace WatchShopApp.Core.Service
             return _context.ShoppingCarts.Where(x => x.UserId == userId)
                 .Sum(x => x.Quantity * x.Price);
         }
+
     }
 }

@@ -6,7 +6,7 @@ namespace WatchShopApp.Models.ShoppingCart
     {
 
         public int Id { get; set; }
-        public string OrderDate { get; set; } = null!;
+        public DateTime OrderDate { get; set; }
         public string UserId { get; set; } = null!;
         public string User { get; set; } = null!;
 

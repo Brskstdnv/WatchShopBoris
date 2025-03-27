@@ -48,25 +48,29 @@ namespace WatchShopApp.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var userId = User.Identity.Name;
+            
+                var user = await _userManager.GetUserAsync(User);
+                if (user == null)
+                {
+                    return RedirectToAction("Index", "Home");
+                }
 
-            var user = await _userManager.GetUserAsync(User);
-            if (user == null)
-            {
-                return RedirectToAction("Index", "Home");
-            }
-            var items = _shoppingCartService.GetShoppingCartItems(userId);
-            var totalPrice = _shoppingCartService.GetTotalPrice(userId);
+                var userId = user.Id;
+                var items = _shoppingCartService.GetShoppingCartItems(userId);
+                var totalPrice = _shoppingCartService.GetTotalPrice(userId);
 
+                // Преобразуваме ShoppingCartItem в ShoppingCartVM
+                var model = items.Select(x => new ShoppingCartVM
+                {
+                    ProductId = x.ProductId,
+                    Product = x.Product.ProductName, // Увери се, че имаш навигационно свойство Product
+                    Quantity = x.Quantity,
+                    Price = x.Price
+                }).ToList(); // Вече връщаме списък!
 
+                return View(model);
+            
 
-            var model = new ShoppingCartVM
-            {
-                Items = items,
-                TotalPrice = totalPrice
-            };
-
-            return View(model);
         }
 
         public async Task<IActionResult> Remove(int productId)

@@ -1,0 +1,70 @@
+﻿@model WatchShopApp.Models.ShoppingCart.ShoppingCartVM
+
+@{
+    ViewData["Title"] = "My Shopping Cart";
+}
+
+<h1>My Shopping Cart</h1>
+
+@if (!Model.Items.Any())
+{
+    <p>Your cart is empty.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Image</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Discount</th>
+                <th>Total</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.Product</td>
+                    <td><img src="@item.Picture" width="100" /></td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Price.ToString("C")</td>
+                    <td>@item.Discount.ToString("C")</td>
+                    <td>@item.TotalPrice.ToString("C")</td>
+                    <td>
+                        <form asp-action="RemoveOne" asp-controller="ShoppingCart" method="post" style="display:inline;">
+                            <input type="hidden" name="productId" value="@item.ProductId" />
+                            <button type="submit" class="btn btn-secondary">Remove One</button>
+                        </form>
+
+                        <form asp-action="RemoveAll" asp-controller="ShoppingCart" method="post" style="display:inline;">
+                            <input type="hidden" name="productId" value="@item.ProductId" />
+                            <button type="submit" class="btn btn-danger">Remove All</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h4>Total: <strong>@Model.TotalPrice.ToString("C")</strong></h4>
+
+    <!-- Clear Entire Cart Button placed outside the table -->
+    <div class="text-right mt-3">
+        <form asp-action="ClearCart" asp-controller="ShoppingCart" method="post">
+            <button type="submit" class="btn btn-outline-danger">🧹 Clear Entire Cart</button>
+        </form>
+    </div>
+
+    <br />
+
+    <!-- Checkout Button -->
+    <div class="text-right mt-3">
+        <form asp-action="ProceedToOrder" asp-controller="ShoppingCart" method="post">
+            <button type="submit" class="btn btn-primary">Proceed to Checkout</button>
+        </form>
+    </div>
+}

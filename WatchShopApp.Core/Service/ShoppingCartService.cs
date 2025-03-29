@@ -22,55 +22,63 @@ namespace WatchShopApp.Core.Service
 
 
 
+        public List<ShoppingCartItem> GetShoppingCartItems(string userId)
+        {
+            return _context.ShoppingCarts
+                .Where(x => x.UserId == userId)
+                .ToList();
+        }
+
         public void AddToCart(ShoppingCartItem item)
         {
-            var existingItem = _context.ShoppingCarts.SingleOrDefault(x => x.ProductId == item.ProductId && x.UserId == item.UserId);
+            var existingItem = _context.ShoppingCarts
+                .SingleOrDefault(x => x.ProductId == item.ProductId && x.UserId == item.UserId);
 
             if (existingItem != null)
             {
                 existingItem.Quantity += item.Quantity;
+                _context.ShoppingCarts.Update(existingItem);
+            }
+            else
+            {
+                var product = _context.Products.Find(item.ProductId);
+                if (product == null) return;
+
+                item.Price = product.Price;
+                item.Discount = product.Discount;
+                item.OrderDate = DateTime.Now;
+
                 _context.ShoppingCarts.Add(item);
             }
-            //else
-            //{
-            //    _context.ShoppingCarts.Add(item);
-            //}
 
             _context.SaveChanges();
+        }
+
+        public void RemoveFromCart(int cartItemId)
+        {
+            var item = _context.ShoppingCarts.Find(cartItemId);
+            if (item != null)
+            {
+                _context.ShoppingCarts.Remove(item);
+                _context.SaveChanges();
+            }
         }
 
         public void ClearCart(string userId)
         {
-            var items = _context.ShoppingCarts.Where(x=>x.UserId == userId).ToList();
-            _context.ShoppingCarts.RemoveRange(items);
+            var cartItems = _context.ShoppingCarts
+                .Where(x => x.UserId == userId)
+                .ToList();
+
+            _context.ShoppingCarts.RemoveRange(cartItems);
             _context.SaveChanges();
-        }
-
-        public List<ShoppingCartItem> GetShoppingCartItems(string userId)
-        {
-            return _context.ShoppingCarts
-     .Where(x => x.UserId == userId)
-     .Include(x => x.Product) 
-     .ToList();
-        }
-
-        public void RemoveFromCart(ShoppingCartItem item)
-        {
-            var existingItem = _context.ShoppingCarts.FirstOrDefault(x=>x.UserId == item.UserId && x.ProductId == item.ProductId);
-
-            if(existingItem != null)
-            {
-                _context.ShoppingCarts.Remove(existingItem);
-                _context.SaveChanges();
-            }
-
         }
 
         public decimal GetTotalPrice(string userId)
         {
-            return _context.ShoppingCarts.Where(x => x.UserId == userId)
-                .Sum(x => x.Quantity * x.Price);
+            return _context.ShoppingCarts
+                .Where(x => x.UserId == userId)
+                .Sum(x => x.Quantity * (x.Price - (x.Price * x.Discount / 100)));
         }
-
     }
 }

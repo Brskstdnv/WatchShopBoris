@@ -9,17 +9,16 @@ namespace WatchShopApp.Core.Contracts
 {
     public interface IShoppingCartService
     {
-        public List<ShoppingCartItem> GetShoppingCartItems(string userId);
+        List<ShoppingCartItem> GetShoppingCartItems(string userId);
 
-        public void AddToCart(ShoppingCartItem item);
+        void AddToCart(ShoppingCartItem item);
+        void RemoveFromCart(int cartItemId);
 
-        public void RemoveFromCart(ShoppingCartItem item);
-
-        public void ClearCart(string userId);
+        void ClearCart(string userId);
 
         decimal GetTotalPrice(string userId);
+
+
     }
-
-
 }
 

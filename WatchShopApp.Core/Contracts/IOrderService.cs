@@ -10,12 +10,18 @@ namespace WatchShopApp.Core.Contracts
 {
     public interface IOrderService
     {
-        bool Create(int productId, string userId, int quantity);
+        //bool Create(int productId, string userId, int quantity);
 
-        List<Order> Orders();
+        //List<Order> Orders();
 
-        public List<Order> GetOrdersByUser(string userId);
+        //public List<Order> GetOrdersByUser(string userId);
+        //Order GetOrderById(int orderId);
+        //bool RemoveById(int orderId);
+        //bool Update(int orderId, int productId, string userId, int quantity);
+        bool CreateOrderFromCart(string userId);
         Order GetOrderById(int orderId);
+        List<Order> GetOrdersByUser(string userId);
+        List<Order> Orders();
         bool RemoveById(int orderId);
         bool Update(int orderId, int productId, string userId, int quantity);
 

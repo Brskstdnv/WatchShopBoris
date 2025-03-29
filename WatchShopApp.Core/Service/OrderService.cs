@@ -22,59 +22,124 @@ namespace WatchShopApp.Core.Service
             _productService = productService;
         }
 
-
-        public bool Create(int productId, string userId, int quantity)
+        public bool CreateOrderFromCart(string userId)
         {
-            var product = _context.Products.SingleOrDefault(x => x.Id == productId);
+            var cartItems = _context.ShoppingCarts.Where(x => x.UserId == userId).ToList();
 
-            if (product == null)
+            if (!cartItems.Any()) return false; // Ако количката е празна, не създавай поръчка
+
+            foreach (var cartItem in cartItems)
             {
-                return false;
+                var order = new Order
+                {
+                    OrderDate = DateTime.Now,
+                    UserId = userId,
+                    ProductId = cartItem.ProductId,
+                    Quantity = cartItem.Quantity,
+                    Price = cartItem.Price,
+                    Discount = cartItem.Discount
+                };
+
+                _context.Orders.Add(order);
             }
 
-            Order item = new Order()
-            {
-                OrderDate = DateTime.Now,
-                UserId = userId,
-                ProductId = productId, // Вместо Id = productId
-                Quantity = quantity,
-                Price = product.Price,
-                Discount = product.Discount
-            };
-
-            product.Quantity -= quantity;
-
-            _context.Products.Update(product);
-            _context.Orders.Add(item);
-
-            return _context.SaveChanges() != 0;
+            _context.ShoppingCarts.RemoveRange(cartItems); // Изчистваме количката
+            return _context.SaveChanges() > 0;
         }
 
         public Order GetOrderById(int orderId)
         {
-            throw new NotImplementedException();
+            return _context.Orders.SingleOrDefault(o => o.Id == orderId);
         }
 
         public List<Order> GetOrdersByUser(string userId)
         {
-            return _context.Orders.Where(x => x.User.Id == userId).ToList()
-                .OrderByDescending(x => x.OrderDate)
-                .ToList();
+            return _context.Orders.Where(o => o.UserId == userId).OrderByDescending(o => o.OrderDate).ToList();
         }
 
         public List<Order> Orders()
         {
-            return _context.Orders.OrderByDescending(x=>x.OrderDate).ToList();
+            return _context.Orders.OrderByDescending(x => x.OrderDate).ToList();
         }
 
         public bool RemoveById(int orderId)
         {
-            throw new NotImplementedException();
+            var order = _context.Orders.SingleOrDefault(o => o.Id == orderId);
+            if (order == null) return false;
+
+            _context.Orders.Remove(order);
+            return _context.SaveChanges() > 0;
         }
 
         public bool Update(int orderId, int productId, string userId, int quantity)
         {
-            throw new NotImplementedException();
+            var order = _context.Orders.SingleOrDefault(o => o.Id == orderId);
+            if (order == null) return false;
+
+            order.Quantity = quantity;
+            var product = _context.Products.SingleOrDefault(p => p.Id == productId);
+            if (product != null)
+            {
+                order.Price = product.Price;
+                order.Discount = product.Discount;
+            }
+
+            _context.Orders.Update(order);
+            return _context.SaveChanges() > 0;
         }
     }
+    //public bool Create(int productId, string userId, int quantity)
+    //{
+    //    var product = _context.Products.SingleOrDefault(x => x.Id == productId);
+
+    //    if (product == null)
+    //    {
+    //        return false;
+    //    }
+
+    //    Order item = new Order()
+    //    {
+    //        OrderDate = DateTime.Now,
+    //        UserId = userId,
+    //        ProductId = productId, // Вместо Id = productId
+    //        Quantity = quantity,
+    //        Price = product.Price,
+    //        Discount = product.Discount
+    //    };
+
+    //    product.Quantity -= quantity;
+
+    //    _context.Products.Update(product);
+    //    _context.Orders.Add(item);
+
+    //    return _context.SaveChanges() != 0;
+    //}
+
+    //public Order GetOrderById(int orderId)
+    //{
+    //    throw new NotImplementedException();
+    //}
+
+    //public List<Order> GetOrdersByUser(string userId)
+    //{
+    //    return _context.Orders.Where(x => x.User.Id == userId).ToList()
+    //        .OrderByDescending(x => x.OrderDate)
+    //        .ToList();
+    //}
+
+    //public List<Order> Orders()
+    //{
+    //    return _context.Orders.OrderByDescending(x=>x.OrderDate).ToList();
+    //}
+
+    //public bool RemoveById(int orderId)
+    //{
+    //    throw new NotImplementedException();
+    //}
+
+    //public bool Update(int orderId, int productId, string userId, int quantity)
+    //{
+    //    throw new NotImplementedException();
+    //}
 }
+

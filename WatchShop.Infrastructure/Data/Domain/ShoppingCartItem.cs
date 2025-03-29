@@ -11,20 +11,17 @@ namespace WatchShop.Infrastructure.Data.Domain
     public class ShoppingCartItem
     {
         public int Id { get; set; }
-        [Required]
 
-        public DateTime OrderDate { get; set; }
         [Required]
+        public DateTime OrderDate { get; set; } = DateTime.Now;
         public int ProductId { get; set; }
         public virtual Product Product { get; set; } = null!;
-        [Required]
         public string UserId { get; set; }
         public virtual ApplicationUser User { get; set; } = null!;
         public int Quantity { get; set; }
         public decimal Price { get; set; }
-        [Range(0, 100)]
         public decimal Discount { get; set; }
-        public decimal TotalPrice { get { return this.Quantity * this.Price - this.Quantity * this.Price * this.Discount / 100; } }
+        public decimal TotalPrice => Quantity * Price - (Quantity * Price * Discount / 100);
     }
 
 

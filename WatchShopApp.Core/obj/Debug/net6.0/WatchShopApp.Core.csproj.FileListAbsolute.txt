@@ -60,3 +60,18 @@ C:\Users\Student\Desktop\Diplomen proekt\WatchShopBoris\WatchShopApp.Core\obj\De
 C:\Users\Student\Desktop\Diplomen proekt\WatchShopBoris\WatchShopApp.Core\obj\Debug\net6.0\refint\WatchShopApp.Core.dll
 C:\Users\Student\Desktop\Diplomen proekt\WatchShopBoris\WatchShopApp.Core\obj\Debug\net6.0\WatchShopApp.Core.pdb
 C:\Users\Student\Desktop\Diplomen proekt\WatchShopBoris\WatchShopApp.Core\obj\Debug\net6.0\ref\WatchShopApp.Core.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp.Core\bin\Debug\net6.0\WatchShopApp.Core.deps.json
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp.Core\bin\Debug\net6.0\WatchShopApp.Core.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp.Core\bin\Debug\net6.0\WatchShopApp.Core.pdb
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp.Core\bin\Debug\net6.0\WatchShop.Infrastructure.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp.Core\bin\Debug\net6.0\WatchShop.Infrastructure.pdb
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp.Core\obj\Debug\net6.0\WatchShopApp.Core.csproj.AssemblyReference.cache
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp.Core\obj\Debug\net6.0\WatchShopApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp.Core\obj\Debug\net6.0\WatchShopApp.Core.AssemblyInfoInputs.cache
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp.Core\obj\Debug\net6.0\WatchShopApp.Core.AssemblyInfo.cs
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp.Core\obj\Debug\net6.0\WatchShopApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp.Core\obj\Debug\net6.0\WatchShopApp.Core.csproj.CopyComplete
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp.Core\obj\Debug\net6.0\WatchShopApp.Core.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp.Core\obj\Debug\net6.0\refint\WatchShopApp.Core.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp.Core\obj\Debug\net6.0\WatchShopApp.Core.pdb
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp.Core\obj\Debug\net6.0\ref\WatchShopApp.Core.dll

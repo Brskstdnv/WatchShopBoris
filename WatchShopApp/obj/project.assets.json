@@ -1585,6 +1585,25 @@
           "lib/net6.0/_._": {}
         }
       },
+      "Microsoft.Exchange.WebServices/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/40/Microsoft.Exchange.WebServices.Auth.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/40/Microsoft.Exchange.WebServices.dll": {
+            "related": ".Auth.pdb;.Auth.xml;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/40/Microsoft.Exchange.WebServices.Auth.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/40/Microsoft.Exchange.WebServices.dll": {
+            "related": ".Auth.pdb;.Auth.xml;.pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -6086,6 +6105,26 @@
         "tools/net461/win-x86/ef.exe",
         "tools/netcoreapp2.0/any/ef.dll",
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
+      ]
+    },
+    "Microsoft.Exchange.WebServices/2.2.0": {
+      "sha512": "NlkaTD0uWtg9VbiWq0VDWMBPzHFknH3tmstrxt0acrT09LBGqATTjRpsGOODz6tUdX7/dehBinxsf75U5Uw/+A==",
+      "type": "package",
+      "path": "microsoft.exchange.webservices/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "doc/License Terms.rtf",
+        "doc/README.htm",
+        "doc/Redist.txt",
+        "lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "lib/40/Microsoft.Exchange.WebServices.Auth.pdb",
+        "lib/40/Microsoft.Exchange.WebServices.Auth.xml",
+        "lib/40/Microsoft.Exchange.WebServices.dll",
+        "lib/40/Microsoft.Exchange.WebServices.pdb",
+        "lib/40/Microsoft.Exchange.WebServices.xml",
+        "microsoft.exchange.webservices.2.2.0.nupkg.sha512",
+        "microsoft.exchange.webservices.nuspec"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
@@ -11801,30 +11840,26 @@
       "Microsoft.EntityFrameworkCore.Proxies >= 6.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.35",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.35",
+      "Microsoft.Exchange.WebServices >= 2.2.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.18",
       "WatchShop.Infrastructure >= 1.0.0",
       "WatchShopApp.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Student\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\bobar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\WatchShopApp.csproj",
+      "projectUniqueName": "C:\\Users\\bobar\\Desktop\\WatchShopBoris\\WatchShopApp\\WatchShopApp.csproj",
       "projectName": "WatchShopApp",
-      "projectPath": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\WatchShopApp.csproj",
-      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\obj\\",
+      "projectPath": "C:\\Users\\bobar\\Desktop\\WatchShopBoris\\WatchShopApp\\WatchShopApp.csproj",
+      "packagesPath": "C:\\Users\\bobar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bobar\\Desktop\\WatchShopBoris\\WatchShopApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\bobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11832,17 +11867,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj"
+            "C:\\Users\\bobar\\Desktop\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\bobar\\Desktop\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj"
             },
-            "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp.Core\\WatchShopApp.Core.csproj": {
-              "projectPath": "C:\\Users\\Student\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp.Core\\WatchShopApp.Core.csproj"
+            "C:\\Users\\bobar\\Desktop\\WatchShopBoris\\WatchShopApp.Core\\WatchShopApp.Core.csproj": {
+              "projectPath": "C:\\Users\\bobar\\Desktop\\WatchShopBoris\\WatchShopApp.Core\\WatchShopApp.Core.csproj"
             }
           }
         }
@@ -11851,11 +11887,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -11888,6 +11919,10 @@
             "target": "Package",
             "version": "[6.0.35, )"
           },
+          "Microsoft.Exchange.WebServices": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[6.0.18, )"
@@ -11912,8 +11947,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Exchange.WebServices 2.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Exchange.WebServices",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

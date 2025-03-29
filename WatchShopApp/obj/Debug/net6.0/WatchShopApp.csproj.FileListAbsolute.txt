@@ -1166,3 +1166,21 @@ C:\Users\Student\Desktop\Diplomen proekt\WatchShopBoris\WatchShopApp\obj\Debug\n
 C:\Users\Student\Desktop\Diplomen proekt\WatchShopBoris\WatchShopApp\obj\Debug\net6.0\WatchShopApp.pdb
 C:\Users\Student\Desktop\Diplomen proekt\WatchShopBoris\WatchShopApp\obj\Debug\net6.0\WatchShopApp.genruntimeconfig.cache
 C:\Users\Student\Desktop\Diplomen proekt\WatchShopBoris\WatchShopApp\obj\Debug\net6.0\ref\WatchShopApp.dll
+C:\Users\Student\Desktop\Diplomen proekt\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\Microsoft.Exchange.WebServices.Auth.dll
+C:\Users\Student\Desktop\Diplomen proekt\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\Microsoft.Exchange.WebServices.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\DocuSign.eSign.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\Microsoft.Exchange.WebServices.Auth.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\Microsoft.Exchange.WebServices.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\WatchShopApp.Core.dll
+C:\Users\bobar\Desktop\WatchShopBoris\WatchShopApp\bin\Debug\net6.0\WatchShopApp.Core.pdb

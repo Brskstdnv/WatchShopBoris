@@ -7737,11 +7737,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bobar\\Desktop\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj",
       "projectName": "WatchShop.Infrastructure",
-      "projectPath": "C:\\Users\\bobar\\Desktop\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\bobar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bobar\\Desktop\\WatchShopBoris\\WatchShop.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bobar\\AppData\\Roaming\\NuGet\\NuGet.Config",

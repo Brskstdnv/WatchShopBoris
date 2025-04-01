@@ -35,16 +35,21 @@ else
                     <td>@item.Discount.ToString("C")</td>
                     <td>@item.TotalPrice.ToString("C")</td>
                     <td>
-                        <form asp-action="RemoveOne" asp-controller="ShoppingCart" method="post" style="display:inline;">
-                            <input type="hidden" name="productId" value="@item.ProductId" />
-                            <button type="submit" class="btn btn-secondary">Remove One</button>
-                        </form>
+                    <td>
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <form asp-action="UpdateQuantity" asp-controller="ShoppingCart" method="post">
+                                <input type="hidden" name="productId" value="@item.ProductId" />
+                                <input type="number" name="quantity" value="@item.Quantity" min="1" max="99"
+                                       class="form-control" style="width: 60px;" onchange="this.form.submit()" />
+                            </form>
 
-                        <form asp-action="RemoveAll" asp-controller="ShoppingCart" method="post" style="display:inline;">
-                            <input type="hidden" name="productId" value="@item.ProductId" />
-                            <button type="submit" class="btn btn-danger">Remove All</button>
-                        </form>
+                            <form asp-action="RemoveAll" asp-controller="ShoppingCart" method="post">
+                                <input type="hidden" name="productId" value="@item.ProductId" />
+                                <button type="submit" class="btn btn-danger">Remove All</button>
+                            </form>
+                        </div>
                     </td>
+
                 </tr>
             }
         </tbody>

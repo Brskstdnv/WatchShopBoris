@@ -21,12 +21,13 @@ namespace WatchShopApp.Controllers
         private readonly IProductService _productService;
         private readonly ApplicationDbContext _context;
 
-        public ShoppingCartController(IShoppingCartService shoppingCartService, IOrderService orderService, UserManager<ApplicationUser> userManager, ApplicationDbContext context)
+        public ShoppingCartController(IShoppingCartService shoppingCartService, IOrderService orderService, UserManager<ApplicationUser> userManager, ApplicationDbContext context, IProductService productService)
         {
             _shoppingCartService = shoppingCartService;
             _orderService = orderService;
             _userManager = userManager;
             _context = context;
+            _productService = productService;
         }
 
 
@@ -251,11 +252,57 @@ namespace WatchShopApp.Controllers
 
             if (result)
             {
+                
+                var cartItems = _shoppingCartService.GetShoppingCartItems(userId);
+                foreach (var item in cartItems)
+                {
+                    var product = _productService.GetProductById(item.ProductId);
+                    if (product != null)
+                    {
+                        product.Quantity -= item.Quantity;
+                        if (product.Quantity < 0)
+                            product.Quantity = 0;
+
+                        _context.Products.Update(product);
+                    }
+                }
+
+                _context.SaveChanges(); 
                 _shoppingCartService.ClearCart(userId);
+
                 return RedirectToAction("MyOrders", "Order");
             }
 
             return RedirectToAction("Index", "ShoppingCart");
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateQuantity(int productId, int quantity)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            var userId = user?.Id;
+
+            if (userId == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var product = _productService.GetProductById(productId);
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            // Ограничение по наличност
+            if (quantity > product.Quantity)
+            {
+                quantity = product.Quantity;
+            }
+
+            _shoppingCartService.UpdateItemQuantity(userId, productId, quantity);
+
+            return RedirectToAction("Index");
         }
     }
 }

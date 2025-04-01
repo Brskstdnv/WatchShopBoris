@@ -80,5 +80,28 @@ namespace WatchShopApp.Core.Service
                 .Where(x => x.UserId == userId)
                 .Sum(x => x.Quantity * (x.Price - (x.Price * x.Discount / 100)));
         }
+
+        public void UpdateQuantity(int productId, string userId, int quantity)
+        {
+            var item = _context.ShoppingCarts.FirstOrDefault(x => x.ProductId == productId && x.UserId == userId);
+            if (item != null)
+            {
+                item.Quantity = quantity;
+                _context.SaveChanges();
+            }
+        }
+
+        public void UpdateItemQuantity(string userId, int productId, int quantity)
+        {
+            var cartItem = _context.ShoppingCarts
+                .FirstOrDefault(x => x.UserId == userId && x.ProductId == productId);
+
+            if (cartItem != null)
+            {
+                cartItem.Quantity = quantity;
+                _context.ShoppingCarts.Update(cartItem);
+                _context.SaveChanges();
+            }
+        }
     }
 }

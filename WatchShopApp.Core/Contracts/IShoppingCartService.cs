@@ -18,6 +18,9 @@ namespace WatchShopApp.Core.Contracts
 
         decimal GetTotalPrice(string userId);
 
+        void UpdateQuantity(int productId, string userId, int quantity);
+
+        void UpdateItemQuantity(string userId, int productId, int quantity);
 
     }
 }

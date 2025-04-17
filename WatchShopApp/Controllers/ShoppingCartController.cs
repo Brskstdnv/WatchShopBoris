@@ -125,22 +125,19 @@ namespace WatchShopApp.Controllers
             var user = await _userManager.GetUserAsync(User);
             var userId = user.Id;
 
-            // Прехвърляне на продукти от количката в поръчката
             var result = _orderService.CreateOrderFromCart(userId);
 
             if (result)
             {
-                // След създаване на поръчката, изчистваме количката
                 _shoppingCartService.ClearCart(userId);
-                return RedirectToAction("OrderConfirmation");  // Пренасочваме към потвърждението
+                return RedirectToAction("OrderConfirmation"); 
             }
             else
             {
-                return RedirectToAction("Index", "ShoppingCart");  // Ако има грешка, пренасочваме към количката
+                return RedirectToAction("Index", "ShoppingCart");  
             }
         }
 
-        // Потвърждение на поръчката
         public IActionResult OrderConfirmation()
         {
             return View();
@@ -294,7 +291,6 @@ namespace WatchShopApp.Controllers
                 return NotFound();
             }
 
-            // Ограничение по наличност
             if (quantity > product.Quantity)
             {
                 quantity = product.Quantity;

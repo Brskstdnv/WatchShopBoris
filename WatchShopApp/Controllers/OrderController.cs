@@ -68,7 +68,6 @@ namespace WatchShopApp.Controllers
 
                 _context.Orders.Add(order);
 
-                // Намаляване на количеството на продукта след поръчката
                 var product = _context.Products.SingleOrDefault(x => x.Id == item.ProductId);
                 if (product != null)
                 {
@@ -77,20 +76,18 @@ namespace WatchShopApp.Controllers
                 }
             }
 
-            // Изчистване на количката след създаване на поръчката
+            
             _shoppingCartService.ClearCart(userId);
             _context.SaveChanges();
 
-            return RedirectToAction("OrderConfirmation"); // Пренасочи към страница за потвърждение на поръчката
+            return RedirectToAction("OrderConfirmation"); 
         }
 
-        // Метод за потвърждение на поръчката
         public IActionResult OrderConfirmation()
         {
-            return View(); // Може да добавите съобщение за потвърждение или подробности за поръчката
+            return View(); 
         }
 
-        // Метод за преглед на всички поръчки на потребителя
         public async Task<IActionResult> MyOrders()
         {
             var user = await _userManager.GetUserAsync(User);
@@ -121,7 +118,6 @@ namespace WatchShopApp.Controllers
             return View(vm);
         }
 
-        // Метод за премахване на поръчка
         public IActionResult RemoveOrder(int orderId)
         {
             var result = _orderService.RemoveById(orderId);
@@ -133,7 +129,6 @@ namespace WatchShopApp.Controllers
             return RedirectToAction("MyOrders");
         }
 
-        // Метод за създаване на поръчка (при директно създаване от продукта)
         public ActionResult Create(int id)
         {
             Product product = _productService.GetProductById(id);
@@ -154,7 +149,6 @@ namespace WatchShopApp.Controllers
             return View(order);
         }
 
-        // Метод за създаване на поръчка чрез формата
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(OrderCreateVM bindingModel)
@@ -171,7 +165,9 @@ namespace WatchShopApp.Controllers
                 return RedirectToAction("Denied", "Order");
             }
 
-            // Прехвърляне на количката към поръчка
+            product.Quantity -= bindingModel.Quantity;
+            _context.Update(product);
+            await _context.SaveChangesAsync();
             bool success = _orderService.CreateOrderFromCart(user.Id);
             if (!success)
             {
@@ -181,10 +177,9 @@ namespace WatchShopApp.Controllers
             return RedirectToAction("MyOrders");
         }
 
-        // Метод за страница с отказ от поръчка
         public IActionResult Denied()
         {
-            return View(); // Може да добавите съобщение за отказана поръчка
+            return View(); 
         }
 
         [Authorize(Roles = "Administrator")]

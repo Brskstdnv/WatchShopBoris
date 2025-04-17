@@ -26,7 +26,7 @@ namespace WatchShopApp.Core.Service
         {
             var cartItems = _context.ShoppingCarts.Where(x => x.UserId == userId).ToList();
 
-            if (!cartItems.Any()) return false; // Ако количката е празна, не създавай поръчка
+            if (!cartItems.Any()) return false; 
 
             foreach (var cartItem in cartItems)
             {
@@ -41,9 +41,16 @@ namespace WatchShopApp.Core.Service
                 };
 
                 _context.Orders.Add(order);
+
+                var product = _context.Products.FirstOrDefault(p => p.Id == cartItem.ProductId);
+                if (product != null)
+                {
+                    product.Quantity -= order.Quantity;
+                    _context.Products.Update(product); 
+                }
             }
 
-            _context.ShoppingCarts.RemoveRange(cartItems); // Изчистваме количката
+            _context.ShoppingCarts.RemoveRange(cartItems); 
             return _context.SaveChanges() > 0;
         }
 

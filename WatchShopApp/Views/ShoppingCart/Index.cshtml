@@ -32,7 +32,7 @@ else
                     <td><img src="@item.Picture" width="100" /></td>
                     <td>@item.Quantity</td>
                     <td>@item.Price.ToString("C")</td>
-                    <td>@item.Discount.ToString("C")</td>
+                    <td>@item.Discount.ToString("")</td>
                     <td>@item.TotalPrice.ToString("C")</td>
                     <td>
                     <td>
@@ -57,7 +57,6 @@ else
 
     <h4>Total: <strong>@Model.TotalPrice.ToString("C")</strong></h4>
 
-    <!-- Clear Entire Cart Button placed outside the table -->
     <div class="text-right mt-3">
         <form asp-action="ClearCart" asp-controller="ShoppingCart" method="post">
             <button type="submit" class="btn btn-outline-danger">🧹 Clear Entire Cart</button>
@@ -66,7 +65,6 @@ else
 
     <br />
 
-    <!-- Checkout Button -->
     <div class="text-right mt-3">
         <form asp-action="ProceedToOrder" asp-controller="ShoppingCart" method="post">
             <button type="submit" class="btn btn-primary">Proceed to Checkout</button>

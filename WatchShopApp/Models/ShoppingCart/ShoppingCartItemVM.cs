@@ -10,6 +10,6 @@ namespace WatchShopApp.Models.ShoppingCart
         public int Quantity { get; set; }
         public decimal Price { get; set; }
         public decimal Discount { get; set; }
-        public decimal TotalPrice => (Price - Discount) * Quantity;
+        public decimal TotalPrice => (Price * (1 - (Discount / 100))) * Quantity;
     }
 }

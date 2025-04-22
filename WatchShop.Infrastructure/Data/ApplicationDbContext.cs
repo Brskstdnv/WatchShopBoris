@@ -8,16 +8,7 @@ namespace WatchShopApp.Data
     public class ApplicationDbContext : IdentityDbContext
     {
 
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    base.OnModelCreating(modelBuilder);
-
-        //    modelBuilder.Entity<ShoppingCartItem>()
-        //        .HasOne(s => s.Order)
-        //        .WithMany()
-        //        .HasForeignKey(s => s.OrderId)
-        //        .OnDelete(DeleteBehavior.Restrict);
-        //}
+     
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {

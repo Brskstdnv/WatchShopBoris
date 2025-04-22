@@ -9,129 +9,129 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WatchShopApp
 build_property.RootNamespace = WatchShopApp
-build_property.ProjectDir = C:\Users\bobar\Desktop\Diplomen proekt\WatchShopBoris\WatchShopApp\
+build_property.ProjectDir = C:\Users\bobar\Desktop\NE PIAPI\WatchShopBoris\WatchShopApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\bobar\Desktop\Diplomen proekt\WatchShopBoris\WatchShopApp
+build_property.MSBuildProjectDirectory = C:\Users\bobar\Desktop\NE PIAPI\WatchShopBoris\WatchShopApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Client/Delete.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Client/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Client/Index.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Client/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Client/NoAccess.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Client/NoAccess.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XE5vQWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Client/Success.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Client/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XFN1Y2Nlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Home/Contact.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Home/Index.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Order/Create.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Order/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Order/Denied.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Order/Denied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGVuaWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Order/Index.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Order/MyOrders.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Order/MyOrders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcTXlPcmRlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Order/OrderConfirmation.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Order/OrderConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJDb25maXJtYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Product/Create.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Product/Delete.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Product/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Product/Details.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Product/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Product/Edit.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Product/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Product/Index.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Product/Success.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Product/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTdWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Shared/Error.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/ShoppingCart/Index.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/ShoppingCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Statistic/Index.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Statistic/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/_ViewImports.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/_ViewStart.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bobar/Desktop/Diplomen proekt/WatchShopBoris/WatchShopApp/Views/Shared/_Layout.cshtml]
+[C:/Users/bobar/Desktop/NE PIAPI/WatchShopBoris/WatchShopApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-le4ym6rdf5

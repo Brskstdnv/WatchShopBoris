@@ -29,7 +29,6 @@ namespace WatchShopApp.Controllers
         [HttpPost]
         public IActionResult SendContact(string name, string email, string message)
         {
-            // Тук можеш да добавиш логика за запазване в база или изпращане на email
             ViewBag.Message = "Your message has been sent!";
             return View("Contact");
         }

@@ -11852,11 +11852,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\WatchShopApp.csproj",
+      "projectUniqueName": "C:\\Users\\bobar\\Desktop\\NE PIAPI\\WatchShopBoris\\WatchShopApp\\WatchShopApp.csproj",
       "projectName": "WatchShopApp",
-      "projectPath": "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\WatchShopApp.csproj",
+      "projectPath": "C:\\Users\\bobar\\Desktop\\NE PIAPI\\WatchShopBoris\\WatchShopApp\\WatchShopApp.csproj",
       "packagesPath": "C:\\Users\\bobar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp\\obj\\",
+      "outputPath": "C:\\Users\\bobar\\Desktop\\NE PIAPI\\WatchShopBoris\\WatchShopApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bobar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11874,11 +11874,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj"
+            "C:\\Users\\bobar\\Desktop\\NE PIAPI\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\bobar\\Desktop\\NE PIAPI\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj"
             },
-            "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp.Core\\WatchShopApp.Core.csproj": {
-              "projectPath": "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShopApp.Core\\WatchShopApp.Core.csproj"
+            "C:\\Users\\bobar\\Desktop\\NE PIAPI\\WatchShopBoris\\WatchShopApp.Core\\WatchShopApp.Core.csproj": {
+              "projectPath": "C:\\Users\\bobar\\Desktop\\NE PIAPI\\WatchShopBoris\\WatchShopApp.Core\\WatchShopApp.Core.csproj"
             }
           }
         }

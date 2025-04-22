@@ -53,38 +53,7 @@ namespace WatchShopApp.Controllers
 
         }
 
-        // Добавяне на продукт в количката
-        //[HttpPost]
-        //public async Task<IActionResult> AddToCart(int productId)
-        //{
-        //    var user = await _userManager.GetUserAsync(User);
-        //    var userId = user?.Id;
-
-        //    if (userId == null)
-        //    {
-        //        return RedirectToAction("Login", "Account");
-        //    }
-
-        //    var product = _context.Products.FirstOrDefault(p => p.Id == productId);
-        //    if (product == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var cartItem = new ShoppingCartItem
-        //    {
-        //        UserId = userId,
-        //        ProductId = productId,
-        //        Quantity = 1,
-        //        Price = product.Price,
-        //        Discount = product.Discount,
-        //        OrderDate = DateTime.Now
-        //    };
-
-        //    _shoppingCartService.AddToCart(cartItem);
-
-        //    return RedirectToAction("Index", "ShoppingCart");
-        //}
+        
 
         [HttpPost]
         public async Task<IActionResult> AddToCart(int productId, int quantity)
@@ -94,7 +63,7 @@ namespace WatchShopApp.Controllers
 
             if (userId == null)
             {
-                return RedirectToAction("Login", "Account");
+                return RedirectToAction("Denied", "Order");
             }
 
             var product = _context.Products.FirstOrDefault(p => p.Id == productId);
@@ -146,6 +115,10 @@ namespace WatchShopApp.Controllers
         {
             var user = await _userManager.GetUserAsync(User);
             var userId = user?.Id;
+            if (userId == null)
+            {
+                return RedirectToAction("Denied", "Order");
+            }
 
             var items = _context.ShoppingCarts
                 .Include(x => x.Product)

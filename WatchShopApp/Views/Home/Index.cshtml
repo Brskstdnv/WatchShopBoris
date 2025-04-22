@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WatchShop - Начало</title>
-    <!-- Зареди своя CSS файл (например styles.css) -->
     <link rel="stylesheet" href="~/css/homeCss.css" />
 </head>
 <body>
@@ -12,7 +11,6 @@
      
 
     </style>
-    <!-- Hero секция с фоново изображение -->
     <section class="hero">
         <div class="hero-content">
             <h1>Купи перфектиния аксесоар за твоята визия</h1>
@@ -21,7 +19,6 @@
         </div>
     </section>
 
-    <!-- Секция с предимства (Features) -->
     <section class="features">
         <h2>Защо да изберете WachShop?</h2>
         <div class="feature-list">
@@ -40,7 +37,6 @@
         </div>
     </section>
 
-    <!-- Call to Action (CTA) секция -->
     <section class="cta">
         <h2>Започни да пазаруваш сега!</h2>
         <p>Регистрирай се и стани част от общността.</p>
@@ -50,92 +46,3 @@
 </body>
 </html>
 
-
-
-
-@* <!DOCTYPE html>
-<html lang="bg">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WatchShop - Винаги на време</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            overflow-x: hidden;
-        }
-
-        /* Контейнер за слайдшоуто */
-        .slideshow-container {
-            position: relative;
-            width: 100%;
-            height: 80vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-        }
-
-            /* Слайдшоу изображения */
-            .slideshow-container img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                position: absolute;
-            }
-
-        /* Текстът върху слайдшоуто */
-        .hero-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 4rem;
-            font-weight: bold;
-            color: white;
-            background: rgba(0, 0, 0, 0.6);
-            padding: 20px 40px;
-            border-radius: 10px;
-            text-align: center;
-            z-index: 10; 
-        }
-
-    </style>
-</head>
-<body>
-
-    <!-- Контейнер за слайдшоуто -->
-    <div class="slideshow-container">
-        <h1 class="hero-text">Винаги на време</h1>
-        <img src="/images/Watches2 Slaidshow.jpg" alt="Slide 1">
-        <img src="/images/Watches4 Slaidshow.jpg" alt="Slide 2">
-        <img src="/images/Watch5 Slaidshow.jpg" alt="Slide 3">
-    </div>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var images = document.querySelectorAll("#slideshow img");
-            var currentIndex = 0;
-
-            function showSlide(index) {
-                images.forEach(img => img.style.display = "none"); // Скрива всички изображения
-                images[index].style.display = "block"; // Показва текущото
-            }
-
-            function nextSlide() {
-                currentIndex = (currentIndex + 1) % images.length;
-                showSlide(currentIndex);
-            }
-
-            // Показва първото изображение и стартира цикъла
-            showSlide(currentIndex);
-            setInterval(nextSlide, 3000); // Превключва на всеки 3 секунди
-        });
-    </script>
-
-
-</body>
-</html>
- *@

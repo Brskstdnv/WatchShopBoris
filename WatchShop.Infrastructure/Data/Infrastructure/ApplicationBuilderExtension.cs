@@ -69,7 +69,7 @@ namespace WatchShop.Infrastructure.Data.Infrastructure
 
             {
             new Manufacturer{Name = "Rolex"},
-            new Manufacturer{Name = "Ap" },
+            new Manufacturer{Name = "Audemars Piguet" },
             new Manufacturer{Name = "Casio" },
             new Manufacturer{Name = "AppleWatch" }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7+VaRzhm8MbwRvPyFALVbOsOISgAb3UNCXBTrYxsontc+wCIo766NNJa0TAAHwkFaug+sYY+CA7AcfWEotvl0Q==",
+  "dgSpecHash": "T9pYd0Wd0oqFS3AAzgLnkyU7uh8kFvQLe49li8KGWuhwikd8APZWYrBJ+oSdxFUFYwZepsYpZb1r/QxaYI4UMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bobar\\Desktop\\Diplomen proekt\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\bobar\\Desktop\\NE PIAPI\\WatchShopBoris\\WatchShop.Infrastructure\\WatchShop.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bobar\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "C:\\Users\\bobar\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",

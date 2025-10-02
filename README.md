@@ -1,69 +1,75 @@
-WatchShopBoris е проект за онлайн магазин за часовници.
-Целта е да се предложи платформа, където потребителите могат да разглеждат, търсят и купуват часовници, а администраторът — да управлява каталога, наличности и поръчки.
+Description
 
+WatchShopBoris is a project for an online watch store.
+The goal is to provide a platform where customers can browse, search, and purchase watches, while administrators can manage the catalog, stock, and orders.
 
+Features
 
-Някои от ключовите възможности, които проектът може да съдържа (и които можеш да актуализираш според реалното състояние):
+Some of the key features (you can update depending on the actual implementation):
 
-Регистрация и автентикация на потребители
+User registration and authentication
 
-Преглед на списък с продукти (часовници)
+Product catalog (list of watches)
 
-Детайлен преглед на всеки часовник (описание, снимки, цена, наличност)
+Detailed product view (description, images, price, availability)
 
-Търсене и филтриране на продукти
+Search and filtering of products
 
-Поръчване и плащане (или етап за плащане)
+Ordering and checkout process (or payment stage)
 
-Управление на поръчките
+Order management
 
-Административен панел за добавяне/редактиране/изтриване на продукти
+Admin panel for adding/editing/deleting products
 
-Управление на потребители и техните права
+User and role management
 
-Работа с база данни за съхранение на продукти, потребители и поръчки
+Database integration for storing products, users, and orders
 
+Technologies & Architecture
 
+The project is organized into several layers/modules (based on the current structure):
 
+WatchShop.Infrastructure — infrastructure layer responsible for database access, configurations, etc.
 
-Технологии и архитектура:
+WatchShopApp.Core — core business logic, interfaces, and models.
 
-Проектът е организиран в няколко слоя/модула (според структурата, която виждам):
+WatchShopApp — presentation layer (UI) and main application.
 
-WatchShop.Infrastructure — инфраструктурен слой, отговорен за достъпа до данни, конфигурации и т.н.
+WatchShopApp.sln — Visual Studio solution file bringing everything together.
 
-WatchShopApp.Core — основна бизнес логика, интерфейси, модели.
+Technologies may include ASP.NET Core (for Web API / MVC), Entity Framework Core (for database access), and a frontend framework (Razor Pages, Blazor, or MVC Views), depending on the chosen implementation.
 
-WatchShopApp — вероятно представяне (UI) и основното приложение.
+Installation / Setup
 
-Visual Studio решение (.sln), което връща всичките тези части.
-
-Може да се използват технологии като ASP.NET Core (за уеб API / MVC), Entity Framework Core за данни, и фронтенд (например Razor Pages, Blazor, или MVC View) — в зависимост как си решил да го реализираш.
-
-
-
-Инсталиране / Настройка
-
-Клонирай репото:
+Clone the repository:
 
 git clone https://github.com/Brskstdnv/WatchShopBoris.git
 
 
-Отвори решението в Visual Studio / VS Code.
+Open the solution in Visual Studio or VS Code.
 
-Настрой connection string в appsettings.json (или в конфигурационните файлове) за твоята база данни.
+Configure your connection string in appsettings.json (or relevant config file).
 
-Изпълни миграции / инициализиране на базата данни (ако използваш EF Core):
+Apply database migrations (if using EF Core):
 
 dotnet ef database update
 
 
-Стартирай приложението.
+Run the application.
 
-Използване
+Usage
 
-Влез като администратор, за да добавяш нови часовници, управляваш наличности и поръчки.
+Log in as administrator to add new watches, manage stock, and handle orders.
 
-Като клиент — разглеждай каталога, добавяй в кошница и прави поръчка.
+Log in as customer to browse the catalog, add products to the cart, and place orders.
 
-Може да има възможности за филтриране по марка, цена, стил и др.
+Optionally, search and filter by brand, price, style, and other attributes.
+
+Project Structure
+WatchShopBoris/
+│
+├── WatchShop.Infrastructure/     # Database, repositories, configs
+├── WatchShopApp.Core/           # Business logic, models, abstractions
+├── WatchShopApp/                # Main app (UI, controllers, services)
+├── WatchShopApp.sln             # Visual Studio solution
+└── README.md                    # This file
